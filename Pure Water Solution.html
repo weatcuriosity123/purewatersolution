@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pure Water Solution | RO Repair & Water Purifier Service in Pune</title>
+  <meta name="description" content="RO repair, installation, AMC, filter replacement and water purifier service in Pune. Same-day doorstep service for home and office purifiers." />
+  
+  <style>
+     .reviews-slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  /* Left blur/fade */
+  .reviews-slider::before,
+  .reviews-slider::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .reviews-slider::before {
+    left: 0;
+    background: linear-gradient(to right, #eef6ff 0%, rgba(238, 246, 255, 0) 100%);
+  }
+
+  .reviews-slider::after {
+    right: 0;
+    background: linear-gradient(to left, #eef6ff 0%, rgba(238, 246, 255, 0) 100%);
+  }
+
+  .reviews-track {
+    display: flex;
+    gap: 18px;
+    width: max-content;
+    animation: scrollReviews 30s linear infinite;
+  }
+
+  .reviews-track:hover {
+    animation-play-state: paused;
+  }
+
+  .review-card {
+    min-width: 320px;
+    max-width: 320px;
+    background: var(--white);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(11, 94, 215, 0.08);
+    padding: 24px;
+    flex-shrink: 0;
+  }
+
+  @keyframes scrollReviews {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .reviews-slider::before,
+    .reviews-slider::after {
+      width: 50px;
+    }
+
+    .review-card {
+      min-width: 280px;
+      max-width: 280px;
+    }
+  }
+
+    :root {
+      --primary: #0b5ed7;
+      --primary-dark: #084298;
+      --secondary: #eaf4ff;
+      --text: #1b1f23;
+      --muted: #5f6b7a;
+      --white: #ffffff;
+      --border: #dbe7f3;
+      --success: #25d366;
+      --shadow: 0 12px 30px rgba(9, 42, 85, 0.12);
+      --radius: 18px;
+      --container: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: #f8fbff;
+      line-height: 1.6;
+    }
+
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; display: block; }
+
+    .container {
+      width: min(92%, var(--container));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      background: var(--primary-dark);
+      color: var(--white);
+      font-size: 14px;
+      padding: 8px 0;
+    }
+
+    .topbar-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,0.94);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(11, 94, 215, 0.08);
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      gap: 18px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--primary-dark);
+    }
+
+    .logo-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #4facfe, #0b5ed7);
+      display: grid;
+      place-items: center;
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+      box-shadow: var(--shadow);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 24px;
+      padding: 0;
+      margin: 0;
+      align-items: center;
+    }
+
+    nav a {
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    nav a:hover { color: var(--primary); }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: none;
+      border-radius: 999px;
+      padding: 14px 24px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.25s ease;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .btn-primary:hover { background: var(--primary-dark); transform: translateY(-1px); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--primary);
+      border: 2px solid var(--primary);
+    }
+
+    .btn-outline:hover { background: var(--primary); color: var(--white); }
+
+    .btn-whatsapp {
+      background: var(--success);
+      color: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      padding: 72px 0 48px;
+      background: radial-gradient(circle at top right, #dff0ff, transparent 28%), linear-gradient(180deg, #f7fbff 0%, #edf6ff 100%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 32px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 14px;
+      background: #dff0ff;
+      color: var(--primary-dark);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      font-size: clamp(34px, 5vw, 56px);
+      line-height: 1.12;
+      margin: 0 0 14px;
+      color: #06294f;
+    }
+
+    .hero p {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0 28px;
+    }
+
+    .badge {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 14px;
+      font-weight: 700;
+      color: #23405c;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .mini-note {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .hero-card-wrap {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    .hero-visual, .form-card, .card, .price-card, .review-card, .faq-item, .contact-card {
+      background: var(--white);
+      border: 1px solid rgba(11, 94, 215, 0.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-visual {
+      padding: 22px;
+      overflow: hidden;
+    }
+
+    .hero-visual img {
+      border-radius: 16px;
+      min-height: 260px;
+      object-fit: cover;
+      width: 100%;
+      background: #dbeeff;
+    }
+
+    .floating-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .floating-stats div {
+      background: #f7fbff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      text-align: center;
+      font-weight: 700;
+      color: #163a64;
+      font-size: 14px;
+    }
+
+    .form-card {
+      padding: 22px;
+    }
+
+    .form-card h3 {
+      margin-top: 0;
+      margin-bottom: 6px;
+      color: #09315f;
+    }
+
+    .form-card p {
+      margin-top: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .form-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 15px;
+      font-family: inherit;
+      background: #fbfdff;
+    }
+
+    section {
+      padding: 72px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      max-width: 780px;
+      margin: 0 auto 40px;
+    }
+
+    .section-title span {
+      display: inline-block;
+      color: var(--primary);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .section-title h2 {
+      margin: 0 0 10px;
+      font-size: clamp(28px, 4vw, 42px);
+      color: #06294f;
+      line-height: 1.18;
+    }
+
+    .section-title p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .service-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      margin-top: -20px;
+    }
+
+    .strip-item, .card, .price-card, .review-card, .contact-card {
+      padding: 24px;
+    }
+
+    .strip-item {
+      background: var(--white);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(11, 94, 215, 0.08);
+      text-align: center;
+      font-weight: 700;
+      color: #163a64;
+    }
+
+    .icon {
+      width: 54px;
+      height: 54px;
+      border-radius: 16px;
+      display: grid;
+      place-items: center;
+      background: #e9f3ff;
+      color: var(--primary);
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .about-box {
+      background: var(--white);
+      border: 1px solid rgba(11, 94, 215, 0.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 28px;
+    }
+
+    .about-box h3 {
+      margin-top: 0;
+      color: #09315f;
+      font-size: 30px;
+      line-height: 1.2;
+    }
+
+    .about-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .card h3, .price-card h3, .review-card h3, .contact-card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #09315f;
+    }
+
+    .card p, .price-card p, .review-card p, .contact-card p {
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .brands {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 16px;
+    }
+
+    .brand-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      text-align: center;
+      box-shadow: 0 8px 18px rgba(8, 66, 152, 0.06);
+    }
+
+    .brand-card img {
+      height: 90px;
+      width: 100%;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .brand-card span {
+      display: block;
+      font-weight: 700;
+      color: #21405b;
+      font-size: 14px;
+    }
+
+    .brand-pill, .area-pill {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      text-align: center;
+      font-weight: 700;
+      color: #21405b;
+      box-shadow: 0 8px 18px rgba(8, 66, 152, 0.06);
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .step-box {
+      position: relative;
+      padding: 24px;
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(11, 94, 215, 0.08);
+    }
+
+    .step-no {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .pricing {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .price {
+      font-size: 28px;
+      color: var(--primary);
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .reviews {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .stars {
+      color: #ffb400;
+      letter-spacing: 2px;
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+
+    .areas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .gallery img {
+      border-radius: 18px;
+      height: 240px;
+      object-fit: cover;
+      width: 100%;
+      box-shadow: var(--shadow);
+      background: #dbeeff;
+    }
+
+    .faq-wrap {
+      display: grid;
+      gap: 14px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    details {
+      background: var(--white);
+      border-radius: 16px;
+      border: 1px solid rgba(11, 94, 215, 0.08);
+      box-shadow: var(--shadow);
+      padding: 18px 22px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: #09315f;
+    }
+
+    details p { color: var(--muted); }
+
+    .cta-banner {
+      background: linear-gradient(135deg, #0b5ed7, #083f8f);
+      color: white;
+      border-radius: 28px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .cta-banner h2 {
+      margin-top: 0;
+      font-size: clamp(28px, 4vw, 42px);
+    }
+
+    .cta-banner p { max-width: 720px; margin: 0 auto 20px; color: rgba(255,255,255,0.9); }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .contact-item {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      color: var(--muted);
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 360px;
+      border: none;
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    footer {
+      background: #06294f;
+      color: #dfeeff;
+      padding: 26px 0 96px;
+      margin-top: 40px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .sticky-mobile {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255,255,255,0.98);
+      border-top: 1px solid var(--border);
+      display: none;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      padding: 12px;
+      z-index: 1001;
+    }
+
+    .sticky-mobile a {
+      text-align: center;
+      padding: 14px;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+
+    .sticky-mobile .call { background: var(--primary); color: white; }
+    .sticky-mobile .wa { background: var(--success); color: white; }
+
+    @media (max-width: 1024px) {
+      .hero-grid, .two-col, .contact-grid, .grid-4, .pricing, .steps, .service-strip, .brands, .reviews, .gallery {
+        grid-template-columns: 1fr 1fr;
+      }
+      .grid-3 { grid-template-columns: 1fr 1fr; }
+      nav ul { gap: 14px; }
+    }
+
+    @media (max-width: 768px) {
+      nav ul { display: none; }
+      .hero-grid, .two-col, .contact-grid, .grid-3, .grid-4, .pricing, .steps, .service-strip, .brands, .reviews, .gallery, .floating-stats, .about-list {
+        grid-template-columns: 1fr;
+      }
+      .hero { padding-top: 48px; }
+      section { padding: 56px 0; }
+      .sticky-mobile { display: grid; }
+      footer { padding-bottom: 110px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div>Doorstep RO Repair, Installation & AMC Service in Pune</div>
+      <div>Call: <a href="tel:+918806812274">+91 88068 12274</a> | WhatsApp Available</div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <a href="#home" class="logo">
+  <img src="images/logo.png" alt="Pure Water Solution Logo" style="height:100px;" />
+</a>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="btn btn-primary" href="tel:+918806812274">Call Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Trusted Local RO Service Partner</span>
+          <h1>RO Repair & Water Purifier Service in Pune</h1>
+          <p>
+            Fast, affordable and reliable RO service for homes, offices and shops. We provide installation, repair, filter replacement, AMC support and purifier maintenance at your doorstep.We also offer sales and service support for commercial RO plants, including 25 LPH , 50 LPH and 100 LPH systems.
+          </p>
+
+          <div class="badge-row">
+            <div class="badge">Same Day Service</div>
+            <div class="badge">Expert Technician</div>
+            <div class="badge">Affordable Charges</div>
+            <div class="badge">Genuine Spare Parts</div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="https://wa.me/918806812274?text=Hello%2C%20I%20want%20to%20book%20RO%20service.%0AName%3A%0AArea%3A%0APurifier%20Brand%3A%0AProblem%3A%0APreferred%20Time%3A" class="btn btn-whatsapp" target="_blank">Book on WhatsApp</a>
+            <a href="tel:+918806812274" class="btn btn-outline">Call Now</a>
+          </div>
+
+          <div class="mini-note">Serving Pune, Pimpri-Chinchwad and nearby areas for quick doorstep RO support.</div>
+        </div>
+
+        <div class="hero-card-wrap">
+          <div class="hero-visual">
+            <img src="images/purifier-hero.jpg" alt="RO water purifier" />
+            <div class="floating-stats">
+             
+              <div>6+ Years Experience</div>
+              <div>4.85 Rated Service <br>★★★★★</div>
+              <div>Same Day Visit <br>24x7</div>
+            </div>
+          </div>
+
+          <div class="form-card">
+            <h3>Book a Service Request</h3>
+            <p>Fill the details and we will contact you quickly.</p>
+            <form class="form-grid" id="serviceForm">
+              <input type="text" id="name" placeholder="Your Name" required />
+<input type="tel" id="phone" placeholder="Phone Number" required />
+
+<select id="service">
+  <option>Select Service</option>
+  <option>RO Repair</option>
+  <option>RO Installation</option>
+  <option>Filter Change</option>
+  <option>AMC Service</option>
+  <option>Other</option>
+</select>
+
+<textarea id="problem" rows="4" placeholder="Problem / Address"></textarea>
+              <button type="submit" class="btn btn-primary">Submit Request</button>
+            </form>
+            <script>
+document.getElementById("serviceForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let name = document.getElementById("name").value.trim();
+    let phone = document.getElementById("phone").value.trim();
+    let service = document.getElementById("service").value;
+    let problem = document.getElementById("problem").value.trim();
+
+    let message = `Hello, I want to book RO service.
+Name: ${name}
+Phone: ${phone}
+Service: ${service}
+Problem / Address: ${problem}`;
+
+    let whatsappNumber = "918806812274"; // Replace with your WhatsApp number
+    let whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappURL, "_blank");
+});
+</script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container service-strip">
+      <div class="strip-item">RO Installation</div>
+      <div class="strip-item">RO Repair</div>
+      <div class="strip-item">Filter Replacement</div>
+      <div class="strip-item">AMC Service</div>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <span>Why Choose Us</span>
+          <h2>Trusted by Families and Offices for Clean Drinking Water</h2>
+          <p>We focus on quick response, honest pricing and dependable RO service support with doorstep convenience.</p>
+        </div>
+
+        <div class="two-col">
+          <div class="about-box">
+            <h3>Dependable RO Service for Every Need</h3>
+            <p>
+              Pure Water Solution provides complete RO water purifier support including installation, repair, membrane replacement, AMC plans and regular maintenance. Whether your purifier has low water flow, unusual sound, leakage or needs a routine service, our technician can help.
+            </p>
+            <p>
+              We work with home and office purifiers and support service across major areas in Pune with quick response on phone and WhatsApp.
+            </p>
+            <a href="https://wa.me/918806812274?text=Hello%2C%20I%20want%20to%20book%20RO%20service" class="btn btn-whatsapp" target="_blank">Get Fast Support</a>
+          </div>
+
+          <div class="about-list">
+            <div class="card">
+              <div class="icon">🛠️</div>
+              <h3>Experienced Technicians</h3>
+              <p>Practical troubleshooting and service support for common RO purifier issues.</p>
+            </div>
+            <div class="card">
+              <div class="icon">🚚</div>
+              <h3>Doorstep Service</h3>
+              <p>Quick home and office visits in selected areas with convenient scheduling.</p>
+            </div>
+            <div class="card">
+              <div class="icon">✅</div>
+              <h3>Genuine Spare Parts</h3>
+              <p>We provide quality replacement parts and consumables with proper service support. Unlike many online purchases with no clear guarantee or warranty assistance, we help ensure better purifier performance and reliable after-service.</p>
+            </div>
+            <div class="card">
+              <div class="icon">💬</div>
+              <h3>Easy WhatsApp Booking</h3>
+              <p>Simple booking flow for faster communication and service confirmation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" style="background:#eef6ff;">
+      <div class="container">
+        <div class="section-title">
+          <span>Our Services</span>
+          <h2>Complete RO Water Purifier Services</h2>
+          <p>From emergency repair to regular maintenance, we cover the most common purifier service requirements.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <div class="icon">🔧</div>
+            <h3>RO Repair</h3>
+            <p>Fix issues like no water output, low pressure, leakage, unusual sound and power problems.</p>
+            <a class="btn btn-outline" href="tel:+918806812274">Enquire Now</a>
+          </div>
+
+          <div class="card">
+            <div class="icon">🏠</div>
+            <h3>RO Installation</h3>
+            <p>New purifier installation for home, office or commercial use with proper fitting support.</p>
+            <a class="btn btn-outline" href="tel:+918806812274">Enquire Now</a>
+          </div>
+
+          <div class="card">
+            <div class="icon">💧</div>
+            <h3>Filter & Membrane Change</h3>
+            <p>Timely filter replacement and membrane support to maintain water quality and purifier efficiency.</p>
+            <a class="btn btn-outline" href="tel:+918806812274">Enquire Now</a>
+          </div>
+
+          <div class="card">
+            <div class="icon">📅</div>
+            <h3>AMC Service</h3>
+            <p>Regular maintenance packages for hassle-free purifier health and periodic checkups.</p>
+            <a class="btn btn-outline" href="tel:+918806812274">Enquire Now</a>
+          </div>
+
+          <div class="card">
+            <div class="icon">🔄</div>
+            <h3>Uninstallation & Reinstallation</h3>
+            <p>Shifting to a new home or office? We help uninstall and reinstall your RO unit safely.</p>
+            <a class="btn btn-outline" href="tel:+918806812274">Enquire Now</a>
+          </div>
+
+          <div class="card">
+            <div class="icon">📊</div>
+            <h3>Water Quality Check</h3>
+            <p>TDS and basic purifier performance checks to help you understand service requirements.</p>
+            <a class="btn btn-outline" href="tel:+918806812274">Enquire Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <span>Brands We Service & Sell</span>
+          <h2>Support for Major Water Purifier Brands</h2>
+          <p>We provide servicing, maintenance and sales support for major RO and UV water purifier brands, along with compatible spare parts for many popular models. We also offer sales and service support for commercial RO plants, including 25 LPH , 50 LPH and 100 LPH systems.</p>
+        </div>
+
+        <div class="brands">
+          <div class="brand-card">
+            <img src="images/kent.jpg" alt="Kent RO" />
+            <span>Kent</span>
+          </div>
+          <div class="brand-card">
+            <img src="images/aquaguard.jpg" alt="Aquaguard" />
+            <span>Aquaguard</span>
+          </div>
+          <div class="brand-card">
+            <img src="images/livpure.jpg" alt="Livpure" />
+            <span>Livpure</span>
+          </div>
+          <div class="brand-card">
+            <img src="images/pureit.jpg" alt="Pureit" />
+            <span>Pureit</span>
+          </div>
+          <div class="brand-card">
+            <img src="images/aosmith.jpg" alt="AO Smith" />
+            <span>AO Smith</span>
+          </div>
+          <div class="brand-card">
+            <img src="images/bluestar.jpg" alt="Blue Star" />
+            <span>Blue Star</span>
+          </div>
+          <div class="brand-card">
+            <img src="images/lexpur.jpg" alt="Lexpur" />
+            <span>Lexpur</span>
+          </div>
+          <div class="brand-card">
+            <img src="images/vguard.jpg" alt="V-Guard" />
+            <span>V-Guard</span>
+          </div>
+           <div class="brand-card">
+            <img src="images/25.jpg" alt="25" />
+            <span>25 LPH RO Plant</span>
+          </div>
+           <div class="brand-card">
+            <img src="images/50.jpg" alt="50" />
+            <span>50 LPH RO Plant</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background:#eef6ff;">
+      <div class="container">
+        <div class="section-title">
+          <span>Easy Process</span>
+          <h2>How Our RO Service Works</h2>
+          <p>Simple booking and quick doorstep support designed for convenience.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step-box">
+            <div class="step-no">1</div>
+            <h3>Call or WhatsApp Us</h3>
+            <p>Tell us your area, purifier brand and the issue you are facing.</p>
+          </div>
+          <div class="step-box">
+            <div class="step-no">2</div>
+            <h3>Share the Problem</h3>
+            <p>We understand the issue and suggest a suitable service visit.</p>
+          </div>
+          <div class="step-box">
+            <div class="step-no">3</div>
+            <h3>Technician Visit</h3>
+            <p>Our technician visits your home or office at the scheduled time.</p>
+          </div>
+          <div class="step-box">
+            <div class="step-no">4</div>
+            <h3>Service Completed</h3>
+            <p>Your purifier is inspected, repaired or serviced based on requirement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="container">
+        <div class="section-title">
+          <span>Pricing</span>
+          <h2>Affordable Service Charges</h2>
+          <p>Clear pricing for visit, service and AMC plans. Final charges for parts, repairs or replacements can vary based on model and issue.</p>
+        </div>
+
+        <div class="pricing">
+          <div class="price-card">
+            <h3>Visit Charge</h3>
+            <div class="price">₹199</div>
+            <p>Technician visit and basic inspection at your location.</p>
+          </div>
+          <div class="price-card">
+            <h3>Regular Service</h3>
+            <div class="price">₹399</div>
+            <p>Tank cleaning and complete servicing for regular purifier maintenance.</p>
+          </div>
+          <div class="price-card">
+            <h3>RO Water Purifier AMC</h3>
+            <div class="price">₹5500</div>
+            <p>1 year warranty with 3 service visits included under AMC plan.</p>
+          </div>
+          <div class="price-card">
+            <h3>UV Water Purifier AMC</h3>
+            <div class="price">₹3500</div>
+            <p>1 year AMC support for UV water purifiers with scheduled service coverage.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" style="background:#eef6ff;">
+      <div class="container">
+        <div class="section-title">
+          <span>Customer Feedback</span>
+          <h2>What Our Customers Say</h2>
+          <p>Real trust comes from real service experience. Replace these with actual customer reviews once collected.</p>
+        </div>
+
+        <div class="reviews-slider">
+  <div class="reviews-track">
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>Quick response and professional service. The purifier issue was fixed the same day. Highly satisfied with the support.</p>
+      <h3>Rahul Patil</h3>
+      <div class="mini-note">Wakad, Pune</div>
+    </div>
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>Very polite technician and reasonable charges. Water flow problem was resolved properly and guidance was also helpful.</p>
+      <h3>Sneha Joshi</h3>
+      <div class="mini-note">Baner, Pune</div>
+    </div>
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>Booked through WhatsApp and got fast service. Good experience for regular purifier maintenance at home.</p>
+      <h3>Amit Kulkarni</h3>
+      <div class="mini-note">Pimple Saudagar</div>
+    </div>
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>Good service and genuine spare parts. The technician explained the issue clearly and fixed it properly.</p>
+      <h3>Priya Deshmukh</h3>
+      <div class="mini-note">Hinjewadi, Pune</div>
+    </div>
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>Affordable charges and quick visit. My RO water leakage issue was solved in one visit only.</p>
+      <h3>Sachin More</h3>
+      <div class="mini-note">Nigdi, Pune</div>
+    </div>
+
+    <!-- Duplicate reviews for smooth infinite scroll -->
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>Quick response and professional service. The purifier issue was fixed the same day. Highly satisfied with the support.</p>
+      <h3>Rahul Patil</h3>
+      <div class="mini-note">Wakad, Pune</div>
+    </div>
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>Very polite technician and reasonable charges. Water flow problem was resolved properly and guidance was also helpful.</p>
+      <h3>Sneha Joshi</h3>
+      <div class="mini-note">Baner, Pune</div>
+    </div>
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>Booked through WhatsApp and got fast service. Good experience for regular purifier maintenance at home.</p>
+      <h3>Amit Kulkarni</h3>
+      <div class="mini-note">Pimple Saudagar</div>
+    </div>
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>Good service and genuine spare parts. The technician explained the issue clearly and fixed it properly.</p>
+      <h3>Priya Deshmukh</h3>
+      <div class="mini-note">Hinjewadi, Pune</div>
+    </div>
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>Affordable charges and quick visit. My RO water leakage issue was solved in one visit only.</p>
+      <h3>Sachin More</h3>
+      <div class="mini-note">Nigdi, Pune</div>
+    </div>
+
+  </div>
+</div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <span>Service Areas</span>
+          <h2>Areas We Serve in Pune</h2>
+          <p>Add only the real areas covered by the technician to keep leads relevant and service manageable.</p>
+        </div>
+
+        <div class="areas">
+          <div class="area-pill">Wakad</div>
+          <div class="area-pill">Hinjewadi</div>
+          <div class="area-pill">Baner</div>
+          <div class="area-pill">Balewadi</div>
+          <div class="area-pill">Aundh</div>
+          <div class="area-pill">Pimple Saudagar</div>
+          <div class="area-pill">Pimpri</div>
+          <div class="area-pill">Chinchwad</div>
+          <div class="area-pill">Nigdi</div>
+          <div class="area-pill">Ravet</div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background:#eef6ff;">
+      <div class="container">
+        <div class="section-title">
+          <span>Gallery</span>
+          <h2>Recent RO Service Work</h2>
+          <p>Replace these demo images with real technician, shop and service photos for better trust and conversion.</p>
+        </div>
+
+        <div class="gallery">
+          <img src="images/purifier-service-1.jpg" alt="RO purifier service work" />
+          <img src="images/lax.jpg" alt="Water purifier components" />
+          <img src="images/purifier-installation.jpg" alt="RO purifier installation" />
+          <img src="images/purifier-filter-change.jpg" alt="Filter replacement work" />
+          <img src="images/purifier-shop.jpg" alt="Water purifier sales and service shop" />
+          <img src="images/purifier-maintenance.jpg" alt="Purifier maintenance service" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <span>FAQs</span>
+          <h2>Frequently Asked Questions</h2>
+          <p>These questions help users understand the service and also improve basic SEO relevance.</p>
+        </div>
+
+        <div class="faq-wrap">
+          <details open>
+            <summary>How often should an RO purifier be serviced?</summary>
+            <p>Regular servicing is usually recommended every few months depending on water quality, usage and purifier type. Filters and membranes may need replacement based on condition and model.</p>
+          </details>
+          <details>
+            <summary>Do you provide same-day RO repair service?</summary>
+            <p>Yes, same-day service can be provided in selected areas depending on technician availability and distance.</p>
+          </details>
+          <details>
+            <summary>Do you repair all RO purifier brands?</summary>
+            <p>We support most major home and office RO brands and many compatible purifier systems.</p>
+          </details>
+          <details>
+            <summary>Do you provide home service?</summary>
+            <p>Yes, doorstep service is available for homes, offices and small commercial setups in serviceable locations.</p>
+          </details>
+          <details>
+            <summary>How can I book a service?</summary>
+            <p>You can call directly or send a WhatsApp message with your name, area and purifier issue for faster booking.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta-banner">
+          <h2>Need RO Repair Today?</h2>
+          <p>Call now or send us a WhatsApp message for fast doorstep service in Pune and nearby areas. Quick support, local technician and affordable charges.</p>
+          <div class="hero-actions" style="justify-content:center; margin-bottom:0;">
+            <a href="tel:+918806812274" class="btn btn-outline" style="color:white; border-color:white;">Call Now</a>
+            <a href="https://wa.me/918806812274?text=Hello%2C%20I%20need%20RO%20repair%20today" class="btn btn-whatsapp" target="_blank">WhatsApp Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-title">
+          <span>Contact Us</span>
+          <h2>Book RO Service or Visit Our Shop</h2>
+          <p>Replace the sample information below with the client’s real shop details, phone number and Google Maps location.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Get in Touch</h3>
+            <div class="contact-list">
+              <div class="contact-item"><strong>Phone:</strong> <span><a href="tel:+918806812274">+91 8806812274</a></span></div>
+              <div class="contact-item"><strong>WhatsApp:</strong> <span><a href="https://wa.me/918806812274" target="_blank">Chat on WhatsApp</a></span></div>
+              <div class="contact-item"><strong>Address:</strong> <span>Pure Water Solutions,Sr.no.176,First Floor, Flat no -101   Siddhivinayak Apartment, Venu Nagar Cotes, Wakad, Pimpri-Chinchwad, Maharashtra 411057</span></div>
+              <div class="contact-item"><strong>Hours:</strong> <span>Mon - Sun: 24x7</span></div>
+              <div class="contact-item"><strong>Email:</strong> <span>support@purewatersolution.com</span></div>
+            </div>
+            <div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">
+              <a href="tel:+918806812274" class="btn btn-primary">Call Now</a>
+              <a href="https://wa.me/918806812274" class="btn btn-whatsapp" target="_blank">WhatsApp</a>
+            </div>
+          </div>
+
+          <div>
+            <iframe src="https://www.google.com/maps?q=Wakad%20Pune&output=embed" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© 2026 Pure Water Solution. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+        <a href="https://curiosity4u.in" target="_blank">Designed by Curiosity4u</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="sticky-mobile">
+    <a class="call" href="tel:+918806812274">Call Now</a>
+    <a class="wa" href="https://wa.me/918806812274?text=Hello%2C%20I%20need%20RO%20service" target="_blank">WhatsApp</a>
+  </div>
+</body>
+</html>
